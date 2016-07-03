@@ -52,7 +52,7 @@
     
     .back {
         line-height: 22px;
-        background: url("res/btn.png") no-repeat;
+        background: url("../img/btn.png") no-repeat;
         width: 110px;
         height: 38px;
         padding-top: 10px;
