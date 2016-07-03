@@ -1,8 +1,8 @@
  var start = 9998;
  var buf = -1;
  var urlCol = new Array(
-     "url('../img/moe.png') 80% 5px no-repeat",
-     "url('../img/moe-change.png') 80% 5px no-repeat"
+     "url('res/img/moe.png') 80% 5px no-repeat",
+     "url('res/img/moe-change.png') 80% 5px no-repeat"
  );
  var back = new Array(
      "返",
