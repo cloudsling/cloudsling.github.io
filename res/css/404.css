@@ -1,79 +1,84 @@
  * {
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    .center {
-        margin: 7% auto 0;
-        padding-right: 205px;
-        width: 50%;
-        height: 80%;
-        background: url("../img/moe.png") 80% 5px no-repeat;
-    }
-    
-    body {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        opacity: 1;
-        overflow: hidden;
-        min-height: 200px;
-        background-color: #344A5F;
-    }
-    
-    p {
-        font-size: 1.5em;
-        color: #ffffff;
-        text-align: left;
-        margin: 11px 0 22px;
-        overflow: hidden;
-    }
-    
-    .msg {
-        width: 200%;
-        padding-left: 50px;
-        padding-top: 40px; 
-        display: inherit;
-    }
-    
-    strong,
-    b {
-        font-weight: bold;
-    }
-    
-    #img {
-        float: right;
-    }
-    
-    .btn {
-        font-size: inherit;
-        display: inline-block;
-    }
-    
-    .back {
-        line-height: 22px;
-        background: url("../img/btn.png") no-repeat;
-        width: 110px;
-        height: 38px;
-        padding-top: 10px;
-        display: inline-block;
-        text-align: center;
-    }
-    
-    a:link {
-        color: #ffffff;
-        text-decoration: none
-    }
-    
-    a:visited {
-        color: #ffffff;
-        text-decoration: none
-    }
-    
-    a:hover {
-        text-decoration: underline
-    }
-    
-    #clear {
-        float: both;
-    }
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .center {
+     margin: 7% auto 0;
+     padding-right: 205px;
+     width: 50%;
+     height: 80%;
+     background: url("../img/moe.png") 80% 5px no-repeat;
+ }
+ 
+ body {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     opacity: 1;
+     overflow: hidden;
+     min-height: 200px;
+     background-color: #344A5F;
+ }
+ 
+ p {
+     font-size: 1.5em;
+     color: #ffffff;
+     text-align: left;
+     margin: 11px 0 22px;
+     overflow: hidden;
+ }
+ 
+ .msg {
+     width: 200%;
+     padding-left: 50px;
+     padding-top: 40px;
+     display: inherit;
+ }
+ 
+ strong,
+ b {
+     font-weight: bold;
+ }
+ 
+ #img {
+     float: right;
+ }
+ 
+ .btn {
+     font-size: inherit;
+     display: inline-block;
+ }
+ 
+ .back {
+     line-height: 22px;
+     background: url("../img/btn.png") no-repeat;
+     width: 110px;
+     height: 38px;
+     padding-top: 10px;
+     display: inline-block;
+     text-align: center;
+ }
+ 
+ ins {
+     color: #E6E6E6;
+     text-decoration: none;
+ }
+ 
+ a:link {
+     color: #ffffff;
+     text-decoration: none
+ }
+ 
+ a:visited {
+     color: #ffffff;
+     text-decoration: none
+ }
+ 
+ a:hover {
+     text-decoration: underline
+ }
+ 
+ #clear {
+     float: both;
+ }

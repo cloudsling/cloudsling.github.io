@@ -16,8 +16,11 @@
          changeImageFunc();
          document.getElementById("remained-time").innerHTML = start;
          document.getElementById("backMsg").innerHTML = start % 2 == 0 ? back[0] : back[1];
-     } else
+     } else {
+         document.getElementById("remained-time").innerHTML = "0";
+         window.location.href = "http://zero-th.com";
          return;
+     }
      start += buf;
      setTimeout("func()", 1000);
  }
