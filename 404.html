@@ -8,9 +8,158 @@ permalink: /404.html
     <title>啊勒，好像迷路了</title>
     <meta charset="utf-8">
     <meta name="theme-color" content="#F36C21"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="res/css/404.css"> 
-    <script type="text/javascript" src="res/js/404.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <style type="text/css">
+         * {
+             margin: 0px;
+             padding: 0px;
+         }
+         
+         .center {
+             margin: 7% auto 0;
+             padding-right: 205px;
+             width: 50%;
+             height: 80%;
+             background: url("../img/moe.png") 80% 5px no-repeat;
+         }
+         
+         body {
+             width: 100%;
+             height: 100%;
+             position: absolute;
+             opacity: 1;
+             overflow: hidden;
+             min-height: 200px;
+             background-color: #344A5F;
+         }
+         
+         p {
+             font-size: 1.5em;
+             color: #ffffff;
+             text-align: left;
+             margin: 11px 0 22px;
+             overflow: hidden;
+         }
+         
+         .msg {
+             width: 200%;
+             padding-left: 50px;
+             padding-top: 40px;
+             display: inherit;
+         }
+         
+         strong,
+         b {
+             font-weight: bold;
+         }
+         
+         #img {
+             float: right;
+         }
+         
+         .btn {
+             font-size: inherit;
+             display: inline-block;
+         }
+         
+         .back {
+             line-height: 22px;
+             background: url("../img/btn.png") no-repeat;
+             width: 110px;
+             height: 38px;
+             padding-top: 10px;
+             display: inline-block;
+             text-align: center;
+         }
+         
+         ins {
+             color: #E6E6E6;
+             text-decoration: none;
+         }
+         
+         a:link {
+             color: #ffffff;
+             text-decoration: none
+         }
+         
+         a:visited {
+             color: #ffffff;
+             text-decoration: none
+         }
+         
+         a:hover {
+             text-decoration: underline
+         }
+         
+         #clear {
+             float: both;
+         }
+
+    </style> 
+    <script type="text/javascript">
+         var start = 9998;
+         var buf = -1;
+         var urlCol = new Array(
+             "url('res/img/moe.png') 80% 5px no-repeat",
+             "url('res/img/moe-change.png') 80% 5px no-repeat"
+         );
+         var back = new Array(
+             "返",
+             "滚"
+         );
+
+
+         var func = function() {
+             if (start >= 0) {
+                 buf += -1;
+                 changeImageFunc();
+                 document.getElementById("remained-time").innerHTML = start;
+                 document.getElementById("backMsg").innerHTML = start % 2 == 0 ? back[0] : back[1];
+             } else {
+                 document.getElementById("remained-time").innerHTML = "0";
+                 window.location.href = "http://zero-th.com";
+                 return;
+             }
+             start += buf;
+             setTimeout("func()", 1000);
+         }
+
+         var changeImageFunc = function change() {
+             document.getElementById("center").style.background = start % 2 == 0 ? urlCol[0] : urlCol[1];
+         }
+
+         function changeImage() {
+             document.getElementById("center").style.background = start % 2 == 0 ? urlCol[0] : urlCol[1];
+         }
+
+         function solidBackground() {
+             document.getElementById("center").style.background = "#344A5F";
+         }
+
+         window.onload = function() {
+             func();
+         }
+         window.onresize = function() {
+             resize();
+         }
+
+         var oldSize = document.documentElement.clientWidth;
+
+         function resize() {
+             var wis = document.documentElement.clientWidth;
+             if (wis < oldSize) {
+                 if (wis < 600) {
+                     changeImageFunc = solidBackground;
+                 }
+             } else {
+                 if (wis > 600) {
+                     changeImageFunc = changeImage;
+                 }
+             }
+             oldSize = wis;
+         }
+
+    </script>
 </head>
 
 <body>
