@@ -1,20 +1,30 @@
 --- 
-layout: default title: 
-schrodinger's blogs 
+layout: default 
+title: schrodinger's blogs 
 ---
-<h2>{{ page.title }}</h2>
-<p>latest essay</p>
-<ul>
-    {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{post.url}}">{ post.title }</a></li>
-    {% endfor %}
-</ul>
-<!-- <!DOCTYPE html>
-<html lang="en"> -->
-<!--   <link rel="canonical" href=" {{ site.url }}{{ page.url }}" />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href=" {{ site.url }}{{ page.url }}" />
     <script type="text/javascript">
-    	var host = "www.zero-th.com";
-    	if ((host == window.location.host) && (window.location.protocol != "https:")) {
-    		window.location.protocol = "https";
-    	}
-    </script> -->
+    var host = "www.zero-th.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:")) {
+        window.location.protocol = "https";
+    }
+    </script>
+</head>
+
+<body>
+    <h2>{{ page.title }}</h2>
+    <p>latest essay</p>
+    <ul>
+        {% for post in site.posts %}
+        <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{post.url}}">{ post.title }</a></li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
