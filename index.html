@@ -1,16 +1,29 @@
+--- 
+layout: default 
+title: schrodinger's blogs 
 ---
-layout: default
-title: schrodinger's blogs
----
+<!DOCTYPE html>
+<html lang="en">
 
-<h2>{{ page.title }}</h2>
+<head>
+    <meta charset="UTF-8">
+    <title>Future Labs的博客</title>
+    <script type="text/javascript">
+    	var host = "www.zero-th.com";
+    	if ((host == window.location.host) && (window.location.protocol != "https:")) {
+    		window.location.protocol = "https";
+    	}
+    </script>
+</head>
 
-<p>latest essay</p>
+<body>
+    <h2>{{ page.title }}</h2>
+    <p>latest essay</p>
+    <ul>
+        {% for post in site.posts %}
+        <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{post.url}}">{ post.title }</a></li>
+        {% endfor %}
+    </ul>
+</body>
 
-<ul>
-{% for post in site.posts %}
-
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{post.url}}">{ post.title }</a></li>
-
-{% endfor %}
-</ul>
+</html>
