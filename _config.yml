@@ -68,4 +68,7 @@ theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:cloudsling/cloudsling.github.io
+  branch: gh-pages
+  message: 
