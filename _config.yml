@@ -70,5 +70,5 @@ theme: maupassant
 deploy:
   type: git
   repo: git@github.com:cloudsling/cloudsling.github.io
-  branch: gh-pages
+  branch: master
   message: 
