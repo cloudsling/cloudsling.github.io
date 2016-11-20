@@ -22,7 +22,7 @@ menu:
     directory: archives/
     icon: fa-archive
   - page: 时间线
-    directory: timelines/
+    directory: timeline/
     icon: fa-book
   - page: about
     directory: about/
@@ -30,8 +30,8 @@ menu:
   - page: 留言
     directory: comments/
     icon: fa-comments
-  - page: rss
-    directory: rss.xml
+  - page: atom
+    directory: atom.xml
     icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
@@ -53,12 +53,12 @@ links:
 timeline:
   - num: 1
     word: 2016/11/19-博客上线咯
-  - num: 2
-    word: 　
-  - num: 3
-    word: 　
-  - num: 4
-    word: 　
+#  - num: 2
+#    word: 　
+# - num: 3
+#    word: 　
+# - num: 4
+#   word: 　
 
 # Static files
 js: js

@@ -3,7 +3,7 @@ layout: page
 comments: false
 ---
 
-## About
+### About
 
 Name: [Ewrin Schrodinger](https://www.zero-th.com/)
 
