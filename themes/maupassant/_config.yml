@@ -37,8 +37,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title:  
-    url:  
+  - title: smilehe
+    url: http://www.smilehe.xyz/
   - title:  
     url:  
   - title:  
