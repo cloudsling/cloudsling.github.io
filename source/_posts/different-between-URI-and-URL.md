@@ -4,12 +4,12 @@ layout: page
 toc: true
 comments: true
 categories: technology
-description: 黑人问号:URL和URI到底有什么区别???
+description: 黑人问号:URL和URI到底有什么区别?
 ---
 
 ## Intro
 
-在无数本书上都看过URL和URI这两个概念,也曾很多次网上查阅过相关的资料,但还是没几天就又弄混了这两个词,因此写下这篇博客提醒自己不要再忘了...
+在很多书上都看过URL和URI这两个概念,也曾很多次网上查阅过相关的资料,但还是会经常弄混这两个词,因此写下这篇博客提醒自己不要再忘了...
 
 ### URI: Uniform Resource Identifier
 

@@ -7,9 +7,11 @@ comments: false
 
 Name: [Ewrin Schrodinger](https://www.zero-th.com/)
 
+Email: [futurelabs@outlook.com](mailto:futurelabs@outlook.com)
+
 Github: [@cloudsling](https://github.com/cloudsling)
 
-Email: [futurelabs@outlook.com](mailto:futurelabs@outlook.com)
+Weibo: [@Future_labs](http://weibo.com/u/3209962131/)
 
 Google+: [@Schrodinger](https://plus.google.com/u/0/112921361590468634576)
 
