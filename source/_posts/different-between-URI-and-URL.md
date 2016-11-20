@@ -4,6 +4,7 @@ layout: page
 toc: true
 comments: true
 categories: technology
+description: 黑人问号:URL和URI到底有什么区别???
 ---
 
 ## Intro
@@ -22,8 +23,6 @@ URL,统一资源定位符,就是定位一个资源确切地址的名称.它是UR
 
 ### 总结
 
-![diff](/uri/URIvsURL.png)
-图片来自[这里][1]
 
 所有的URL都是URI,但是URI不一定是URL.区别就是URI是一个对资源的标示,不一定能够根据这个标示找到这个资源的确切位置.但如果能找到某个资源的位置的话那这个URI也是一个URL.而现在,URL往往被用来描述一个网络上的资源,即网址.所以在讨论关于网址方面的时候使用URL更加确切.妈妈再也不用纠结是ServiceUri还是ServiceUrl了蛤哈哈.
 
