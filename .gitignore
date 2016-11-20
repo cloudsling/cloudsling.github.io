@@ -30,6 +30,7 @@ GitHub.sublime-settings
 ### VisualStudioCode template
 .vscode
 
+.deploy_git/
 public/
 /.idea/
 /.site/ 
