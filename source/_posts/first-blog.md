@@ -1,5 +1,5 @@
 ---
-title: First Post: Hello World!!
+title: First Post&#58;  Hello World!!
 layout: page
 toc: true
 tags: essays
@@ -8,7 +8,7 @@ categories: essays
 description: 什么，这是第二篇？
 ---
 
-博客终于基本上搭建好了,使用的是hexo和来自[@tufu9441][1]的主题,托管于Github Pages,很方便.这搭建网站的过程中也遇到了不少坑,还有些疑问没有解决.不过总会好的O(∩\_∩)O. 
+博客终于基本上搭建好了,使用的是hexo和来自[@tufu9441][1]的主题,托管于Github Pages,很方便.这搭建网站的过程中也遇到了不少坑,还有些疑问没有解决.不过总会好的O(∩\_∩)O.
 
 在自学编程的这些年里，没有大牛带我飞，前期遇到问题只有在网上搜索解决方法，到处屎坑．但就这么一路磕磕绊绊18个月过去了，我也顺利的从一个小菜鸟成为了一个中级菜鸟．
 

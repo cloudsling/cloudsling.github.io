@@ -1,5 +1,5 @@
 ---
 layout: page
-comments: true
+comments: false
 ---
 
