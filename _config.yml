@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: 
-description:
+title: Future Labs
+subtitle: 薛定谔的猫不吃鱼
+description: Future labs 的博客
 author: LING
 language: en
 timezone:
@@ -69,6 +69,6 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:cloudsling/cloudsling.github.io
-  branch: master
+  repo: git@github.com:cloudsling/hexo_blog
+  branch: gh-pages
   message: 
