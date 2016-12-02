@@ -5,12 +5,13 @@ toc: true
 tags: essays
 comments: true
 categories: algorithms
-description: 
+description: 当然不是整形应该也可以...
 ---
 
 ## 如何交换两个数的值而不使用临时变量
 
 要交换两个整形的值,最容易想到的方法就是使用一个临时变量:
+
 ```C
 void swap(int *a, int *b)
 {
