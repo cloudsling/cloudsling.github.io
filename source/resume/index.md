@@ -1,5 +1,5 @@
-title: "Tags"
-layout: "tags"
+title: "简历"
+layout: "page"
 ---
 
-Resume
+简历：
