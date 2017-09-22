@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 薛定谔的猫不吃鱼的主页
+title: 薛定谔的猫不吃鱼
 subtitle:
-description:
+description: 海纳百川，有容乃大；壁立千仞，无欲则刚
 author: Erwin Schrodinger
-language: zh
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
