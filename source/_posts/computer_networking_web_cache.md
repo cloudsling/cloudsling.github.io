@@ -22,6 +22,8 @@ Web缓存器（Web cache）也叫做代理服务器（proxy server），它能�
 
 1. 当Web缓存器接收到该对象后，它将在本地储存一份该对象的副本，并向客户端浏览器用HTTP响应报文发送该副本，通过现有的TCP连接。
 
+<!-- more -->
+
 ### Web缓存器应用-内容分发网络CDN
 
 用过部署使用内容分发网络（Content Distribution Network，CDN），能够实现大量流量的本地化，使Web访问更加迅速。有共享的CDN，如Akamai，及专用的CDN，如谷歌和微软。
