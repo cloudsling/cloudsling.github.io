@@ -1,6 +1,6 @@
 ---
 title: 2018.2.4
-banner:
+banner: /img/journal.1.png
 comments: true
 categories:
 - 日志
