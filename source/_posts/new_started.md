@@ -2,6 +2,7 @@
 title: 新的开始
 banner: /img/first_post_banner.png
 comments: true
+date: 2017/9/22 20:46:25
 categories:
 - 日志
 ---

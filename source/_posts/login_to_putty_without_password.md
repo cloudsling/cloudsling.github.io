@@ -2,6 +2,7 @@
 title: Putty设置ssh自动登陆
 banner: #/img/dream_lake.jpg
 comments: true
+date: 2017/10/2 20:46:25
 categories:
 - Linux
 tags:
