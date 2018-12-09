@@ -18,8 +18,8 @@ customize:
         avatar: css/images/avatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: Erwin Schrodinger
-        author_title: .NET Developer & Learner
-        location: NanChang, JiangXi, China
+        author_title: Learner
+        location: ShangHai, China
         follow: https://github.com/cloudsling/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
