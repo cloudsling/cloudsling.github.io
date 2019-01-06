@@ -44,4 +44,4 @@ _“海纳百川，有容乃大；壁立千仞，无欲则刚”_
 
 最喜欢的乐队是Coldplay；喜欢编码，最喜欢的语言是C#；喜爱看书；喜爱自行车；喜爱辣条；喜爱音乐。
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=18127334&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28282601&auto=0&height=66"></iframe>
