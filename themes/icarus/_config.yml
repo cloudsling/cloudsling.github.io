@@ -19,7 +19,7 @@ customize:
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: Erwin Schrodinger
         author_title: Learner
-        location: ShangHai, China
+        location: Gothenburg, Sweden
         follow: https://github.com/ryoukou/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
