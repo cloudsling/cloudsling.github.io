@@ -17,8 +17,8 @@ customize:
         enabled: true # Whether to show profile bar
         avatar: css/images/avatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: Erwin Schrodinger
-        author_title: Learner
+        author: ryou kou
+        author_title: a bad guy
         location: Gothenburg, Sweden
         follow: https://github.com/ryoukou/
     highlight: monokai
