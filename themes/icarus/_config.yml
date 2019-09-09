@@ -27,8 +27,8 @@ customize:
     favicon: css/images/favicon.ico # path to favicon
     social_links:
         github: https://github.com/ryoukou/
-        twitter: /
-        facebook: /
+        steam: https://steamcommunity.com/id/hling/
+        twitter: https://steamcommunity.com/groups/schrodinger
         dribbble: /
         rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
